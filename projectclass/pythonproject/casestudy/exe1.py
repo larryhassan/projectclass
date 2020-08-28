@@ -8,3 +8,9 @@ if even_numbers:
     print(even_numbers)
 else:
     print(odd_numbers)
+
+# write a code  sequence input and output to sort them Alphabetically
+list = 'red-green-orange-blue-pink-purple'
+items = [n for n in list.split('-')]
+items.sort()
+print('-join(items))
